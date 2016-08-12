@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1Client", "WcfSer
 		{F4AC8BD3-5DDE-41C6-8D5F-39201CD9D1D6} = {F4AC8BD3-5DDE-41C6-8D5F-39201CD9D1D6}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1ClientConsole", "WcfService1ClientConsole\WcfService1ClientConsole.csproj", "{7E011DF2-FC72-4C51-BD36-3E6744E7DEA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{F06265A8-FA14-4007-B0D2-FBE9EF33A8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F06265A8-FA14-4007-B0D2-FBE9EF33A8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F06265A8-FA14-4007-B0D2-FBE9EF33A8B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E011DF2-FC72-4C51-BD36-3E6744E7DEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E011DF2-FC72-4C51-BD36-3E6744E7DEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E011DF2-FC72-4C51-BD36-3E6744E7DEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E011DF2-FC72-4C51-BD36-3E6744E7DEA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
