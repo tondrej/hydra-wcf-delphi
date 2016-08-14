@@ -1,0 +1,10 @@
+--- "uHYCLRWrappers.pas"	
++++ "uHYCLRWrappers.pas"
+@@ -274,6 +274,7 @@ begin
+   fAppDomainSetup := HYClr.CreateDomainSetup;
+   fAppDomainSetup.Set_ApplicationBase(BasePath);
+   fAppDomainSetup.Set_ApplicationName(AppName);
++  fAppDomainSetup.Set_ConfigurationFile(ParamStr(0) + '.config');
+   fAppDomain := HYClr.CreateDomain(AppName, fAppDomainSetup);
+ 
+   if InitHydraCore then
